@@ -41,7 +41,7 @@ button {
 .about__image {
   width: 500px;
 }
- 
+
 .about__sun-image {
   width: 100px;
   height: 100px;
@@ -57,7 +57,7 @@ button {
 
 .about h1 {
   font-size: 70px;
-  line-height: 76px; 
+  line-height: 76px;
 }
 
 .about p {
@@ -82,4 +82,24 @@ button {
   background: url('img/back.png') no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.form__container {
+  width: 550px;
+}
+
+.form {
+ background-color: #1D263A;
+ color: #fff;
+ padding-top: 115px;
+ padding-bottom: 115px;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
