@@ -2,6 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white; 
+  z-index: 1;
 }
 
 body {
@@ -11,8 +15,9 @@ body {
 }
 
 .header_logo {
-  height: 60px;
-  width: 140px;
+  height: 70px;
+  width: 150px;
+  margin-left: 50px;
 }
 
 a {
@@ -45,6 +50,8 @@ button {
 .about__sun-image {
   width: 100px;
   height: 100px;
+  animation: rotation 10s linear infinite;
+  position: absolute;
 }
 
 .about {
@@ -193,3 +200,8 @@ footer {
 .footer_copyright {
   text-align: center;
   color: #999;
+}
+
+ @keyframes rotation {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
